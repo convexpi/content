@@ -1,0 +1,94 @@
+name: Generate factor wikis
+
+# Runs weekly (Sunday 05:00 UTC) or on demand.
+# Ingests new arXiv papers, generates wikis for any that don't have one,
+# and commits the results back to this repo.
+on:
+  schedule:
+    - cron: "0 5 * * 0"
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Topic to ingest (leave blank for all)"
+        required: false
+      limit:
+        description: "Max papers per arXiv query"
+        required: false
+        default: "200"
+      model:
+        description: "LLM model (haiku | sonnet | gemini | deepseek)"
+        required: false
+        default: "haiku"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/checkout@v4
+        with:
+          repository: convexpi/lab
+          token: ${{ secrets.PLATFORM_REPO_TOKEN }}
+          path: lab
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install httpx anthropic --quiet
+
+      - name: Cache OSAP data
+        uses: actions/cache@v4
+        with:
+          path: ~/.convexpi/cache
+          key: osap-2025
+
+      # Store generated wikis outside the repo clone (temp dir) to avoid
+      # git conflicts, then publish_content.py copies them in and commits.
+      - name: Set data dir
+        run: echo "CONVEXPI_DATA_DIR=/tmp/convexpi-data" >> $GITHUB_ENV
+
+      - name: Ingest arXiv papers
+        env:
+          SUPABASE_URL:          ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY:  ${{ secrets.SUPABASE_SERVICE_KEY }}
+          S2_API_KEY:            ${{ secrets.S2_API_KEY }}
+        run: |
+          TOPIC="${{ github.event.inputs.topic }}"
+          LIMIT="${{ github.event.inputs.limit || '200' }}"
+          python lab/pipeline/ingest_finance_papers.py \
+            ${TOPIC:+--topic "$TOPIC"} \
+            --limit "$LIMIT"
+
+      - name: Generate wikis
+        env:
+          SUPABASE_URL:          ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY:  ${{ secrets.SUPABASE_SERVICE_KEY }}
+          ANTHROPIC_API_KEY:     ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY:        ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          MODEL="${{ github.event.inputs.model || 'haiku' }}"
+          TOPIC="${{ github.event.inputs.topic }}"
+          python lab/pipeline/generate_factor_wiki.py \
+            ${TOPIC:+--topic "$TOPIC"} \
+            --model "$MODEL" \
+            --limit 100
+
+      - name: Publish to content repo + Supabase
+        env:
+          SUPABASE_URL:          ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY:  ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          python lab/pipeline/publish_content.py \
+            --content-repo . \
+            --supabase
