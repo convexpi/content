@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19T19:07:54.818258+00:00",
-  "count": 8,
+  "updated_at": "2026-06-19T19:34:23.858223+00:00",
+  "count": 14,
   "wikis": [
     {
       "id": "1525e7ee-3a2f-4c4e-b352-56727230fdf5",
@@ -19,7 +19,25 @@
       "arxiv_id": null,
       "topics": [],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+    },
+    {
+      "id": "6649c8b7-bbd9-4016-9c79-21b92f1b83b3",
+      "title": "The other side of value: The gross profitability premium",
+      "authors": [
+        {
+          "name": "Robert Novy-Marx"
+        }
+      ],
+      "year": 2013,
+      "journal": "Journal of Financial Economics",
+      "doi": "10.1016/j.jfineco.2013.01.003",
+      "arxiv_id": null,
+      "topics": [
+        "quality"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     },
     {
       "id": "deb98720-826c-4eec-8bfe-25737d900508",
@@ -46,7 +64,7 @@
         "low_volatility"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     },
     {
       "id": "7304be77-b07d-4396-86a6-d33ce8a4cfe7",
@@ -64,7 +82,28 @@
         "microstructure"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+    },
+    {
+      "id": "bc6032f2-2ad7-49c8-9ddb-5d22c6c5e5b8",
+      "title": "Conditional Skewness in Asset Pricing Tests",
+      "authors": [
+        {
+          "name": "Campbell R. Harvey"
+        },
+        {
+          "name": "Akhtar Siddique"
+        }
+      ],
+      "year": 2000,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/0022-1082.00247",
+      "arxiv_id": null,
+      "topics": [
+        "low_volatility"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     },
     {
       "id": "f5a5282c-be9c-4bc7-962d-bedee0cd6f39",
@@ -82,7 +121,7 @@
         "quality"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     },
     {
       "id": "76e13803-501e-436e-8086-c41c28f81d17",
@@ -103,7 +142,7 @@
         "momentum"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     },
     {
       "id": "7a424fef-4cf9-40e7-bffe-9fb9989e9a24",
@@ -124,7 +163,46 @@
         "quality"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+    },
+    {
+      "id": "cc9546a3-8e3f-443d-8ff6-7ff13a1292d1",
+      "title": "Evidence of Predictable Behavior of Security Returns",
+      "authors": [
+        {
+          "name": "NARASIMHAN JEGADEESH"
+        }
+      ],
+      "year": 1990,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.1990.tb05110.x",
+      "arxiv_id": null,
+      "topics": [
+        "reversal"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+    },
+    {
+      "id": "4b9aa92b-1e1e-4d17-beb2-684ca9b62f20",
+      "title": "Asset pricing and the bid-ask spread",
+      "authors": [
+        {
+          "name": "Yakov Amihud"
+        },
+        {
+          "name": "Haim Mendelson"
+        }
+      ],
+      "year": 1986,
+      "journal": "Journal of Financial Economics",
+      "doi": "10.1016/0304-405x(86)90065-6",
+      "arxiv_id": null,
+      "topics": [
+        "microstructure"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     },
     {
       "id": "d6e03850-3aa4-4a3e-8491-bf01946aa86b",
@@ -145,7 +223,7 @@
         "reversal"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     },
     {
       "id": "58f71324-cc9c-4048-95cb-78c877b1a7bc",
@@ -163,7 +241,46 @@
         "size"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+    },
+    {
+      "id": "aa79587c-78ed-4154-9a8f-4534e4f5dc43",
+      "title": "INVESTMENT PERFORMANCE OF COMMON STOCKS IN RELATION TO THEIR PRICE‐EARNINGS RATIOS: A TEST OF THE EFFICIENT MARKET HYPOTHESIS",
+      "authors": [
+        {
+          "name": "S. Basu"
+        }
+      ],
+      "year": 1977,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.1977.tb01979.x",
+      "arxiv_id": null,
+      "topics": [
+        "value"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+    },
+    {
+      "id": "8ad1d00a-41cf-493b-9aaa-4dfec5fc312d",
+      "title": "Risk, Return, and Equilibrium: Empirical Tests",
+      "authors": [
+        {
+          "name": "Eugene F. Fama"
+        },
+        {
+          "name": "James D. MacBeth"
+        }
+      ],
+      "year": 1973,
+      "journal": "Journal of Political Economy",
+      "doi": "10.1086/260061",
+      "arxiv_id": null,
+      "topics": [
+        "low_volatility"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:34:23.858223+00:00"
     }
   ]
 }
