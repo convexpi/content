@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-06-19T19:34:23.858223+00:00",
-  "count": 14,
+  "updated_at": "2026-06-19T19:47:21.948809+00:00",
+  "count": 19,
   "wikis": [
+    {
+      "id": "ba06beca-7db5-4c42-ac42-96d504e257ad",
+      "title": "Editor's Choice … and the Cross-Section of Expected Returns",
+      "authors": [
+        {
+          "name": "Campbell R. Harvey"
+        },
+        {
+          "name": "Yan Liu"
+        },
+        {
+          "name": "Caroline Zhu"
+        }
+      ],
+      "year": 2016,
+      "journal": "Review of Financial Studies",
+      "doi": "10.1093/rfs/hhv059",
+      "arxiv_id": null,
+      "topics": [
+        "meta"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
+    },
+    {
+      "id": "d60c7fc6-0a4b-475e-bf10-5375dddf0661",
+      "title": "Does Academic Research Destroy Stock Return Predictability?",
+      "authors": [
+        {
+          "name": "R. David McLean"
+        },
+        {
+          "name": "Jeffrey Pontiff"
+        }
+      ],
+      "year": 2015,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/jofi.12365",
+      "arxiv_id": null,
+      "topics": [
+        "meta"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
+    },
     {
       "id": "1525e7ee-3a2f-4c4e-b352-56727230fdf5",
       "title": "Betting against beta",
@@ -19,7 +64,7 @@
       "arxiv_id": null,
       "topics": [],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "6649c8b7-bbd9-4016-9c79-21b92f1b83b3",
@@ -37,7 +82,49 @@
         "quality"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
+    },
+    {
+      "id": "70ed44ce-0acd-4936-bb7c-6e72f4288260",
+      "title": "Economic Links and Predictable Returns",
+      "authors": [
+        {
+          "name": "LAUREN COHEN"
+        },
+        {
+          "name": "ANDREA FRAZZINI"
+        }
+      ],
+      "year": 2008,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.2008.01379.x",
+      "arxiv_id": null,
+      "topics": [
+        "quality"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
+    },
+    {
+      "id": "4e228a64-a6dd-46be-ba56-635bd60f03ec",
+      "title": "Market Reactions to Tangible and Intangible Information",
+      "authors": [
+        {
+          "name": "KENT DANIEL"
+        },
+        {
+          "name": "SHERIDAN TITMAN"
+        }
+      ],
+      "year": 2006,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.2006.00884.x",
+      "arxiv_id": null,
+      "topics": [
+        "quality"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "deb98720-826c-4eec-8bfe-25737d900508",
@@ -64,7 +151,28 @@
         "low_volatility"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
+    },
+    {
+      "id": "b00e445f-c092-4454-a6d1-a83f55a8c042",
+      "title": "Liquidity Risk and Expected Stock Returns",
+      "authors": [
+        {
+          "name": "Ľuboš Pástor"
+        },
+        {
+          "name": "Robert F. Stambaugh"
+        }
+      ],
+      "year": 2003,
+      "journal": "Journal of Political Economy",
+      "doi": "10.1086/374184",
+      "arxiv_id": null,
+      "topics": [
+        "microstructure"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "7304be77-b07d-4396-86a6-d33ce8a4cfe7",
@@ -82,7 +190,7 @@
         "microstructure"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "bc6032f2-2ad7-49c8-9ddb-5d22c6c5e5b8",
@@ -103,7 +211,7 @@
         "low_volatility"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "f5a5282c-be9c-4bc7-962d-bedee0cd6f39",
@@ -121,7 +229,7 @@
         "quality"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "76e13803-501e-436e-8086-c41c28f81d17",
@@ -142,7 +250,7 @@
         "momentum"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "7a424fef-4cf9-40e7-bffe-9fb9989e9a24",
@@ -163,7 +271,7 @@
         "quality"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "cc9546a3-8e3f-443d-8ff6-7ff13a1292d1",
@@ -181,7 +289,7 @@
         "reversal"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "4b9aa92b-1e1e-4d17-beb2-684ca9b62f20",
@@ -202,7 +310,7 @@
         "microstructure"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "d6e03850-3aa4-4a3e-8491-bf01946aa86b",
@@ -223,7 +331,7 @@
         "reversal"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "58f71324-cc9c-4048-95cb-78c877b1a7bc",
@@ -241,7 +349,7 @@
         "size"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "aa79587c-78ed-4154-9a8f-4534e4f5dc43",
@@ -259,7 +367,7 @@
         "value"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     },
     {
       "id": "8ad1d00a-41cf-493b-9aaa-4dfec5fc312d",
@@ -280,7 +388,7 @@
         "low_volatility"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:34:23.858223+00:00"
+      "updated_at": "2026-06-19T19:47:21.948809+00:00"
     }
   ]
 }
