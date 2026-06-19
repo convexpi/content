@@ -1,7 +1,89 @@
 {
-  "updated_at": "2026-06-19T19:00:13.177281+00:00",
-  "count": 2,
+  "updated_at": "2026-06-19T19:07:54.818258+00:00",
+  "count": 8,
   "wikis": [
+    {
+      "id": "1525e7ee-3a2f-4c4e-b352-56727230fdf5",
+      "title": "Betting against beta",
+      "authors": [
+        {
+          "name": "Andrea Frazzini"
+        },
+        {
+          "name": "Lasse Heje Pedersen"
+        }
+      ],
+      "year": 2014,
+      "journal": "Journal of Financial Economics",
+      "doi": "10.1016/j.jfineco.2013.10.005",
+      "arxiv_id": null,
+      "topics": [],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+    },
+    {
+      "id": "deb98720-826c-4eec-8bfe-25737d900508",
+      "title": "The Cross‐Section of Volatility and Expected Returns",
+      "authors": [
+        {
+          "name": "ANDREW ANG"
+        },
+        {
+          "name": "ROBERT J. HODRICK"
+        },
+        {
+          "name": "YUHANG XING"
+        },
+        {
+          "name": "XIAOYAN ZHANG"
+        }
+      ],
+      "year": 2006,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.2006.00836.x",
+      "arxiv_id": null,
+      "topics": [
+        "low_volatility"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+    },
+    {
+      "id": "7304be77-b07d-4396-86a6-d33ce8a4cfe7",
+      "title": "Illiquidity and stock returns: cross-section and time-series effects",
+      "authors": [
+        {
+          "name": "Yakov Amihud"
+        }
+      ],
+      "year": 2002,
+      "journal": "Journal of Financial Markets",
+      "doi": "10.1016/s1386-4181(01)00024-6",
+      "arxiv_id": null,
+      "topics": [
+        "microstructure"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+    },
+    {
+      "id": "f5a5282c-be9c-4bc7-962d-bedee0cd6f39",
+      "title": "Do Stock Prices Fully Reflect Information in Accruals and Cash Flows About Future Earnings?",
+      "authors": [
+        {
+          "name": "Richard G. Sloan"
+        }
+      ],
+      "year": 1996,
+      "journal": "The Accounting Review",
+      "doi": "10.2308/tar-9608042309",
+      "arxiv_id": null,
+      "topics": [
+        "quality"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+    },
     {
       "id": "76e13803-501e-436e-8086-c41c28f81d17",
       "title": "Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency",
@@ -21,7 +103,7 @@
         "momentum"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:00:13.177281+00:00"
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
     },
     {
       "id": "7a424fef-4cf9-40e7-bffe-9fb9989e9a24",
@@ -42,7 +124,46 @@
         "quality"
       ],
       "is_oos_paper": false,
-      "updated_at": "2026-06-19T19:00:13.177281+00:00"
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+    },
+    {
+      "id": "d6e03850-3aa4-4a3e-8491-bf01946aa86b",
+      "title": "Does the Stock Market Overreact?",
+      "authors": [
+        {
+          "name": "WERNER F. M. De BONDT"
+        },
+        {
+          "name": "RICHARD THALER"
+        }
+      ],
+      "year": 1985,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.1985.tb05004.x",
+      "arxiv_id": null,
+      "topics": [
+        "reversal"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
+    },
+    {
+      "id": "58f71324-cc9c-4048-95cb-78c877b1a7bc",
+      "title": "The relationship between return and market value of common stocks",
+      "authors": [
+        {
+          "name": "Rolf W. Banz"
+        }
+      ],
+      "year": 1981,
+      "journal": "Journal of Financial Economics",
+      "doi": "10.1016/0304-405x(81)90018-0",
+      "arxiv_id": null,
+      "topics": [
+        "size"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:07:54.818258+00:00"
     }
   ]
 }
