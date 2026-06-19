@@ -1,4 +1,48 @@
 {
-  "updated_at": "",
-  "wikis": []
+  "updated_at": "2026-06-19T19:00:13.177281+00:00",
+  "count": 2,
+  "wikis": [
+    {
+      "id": "76e13803-501e-436e-8086-c41c28f81d17",
+      "title": "Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency",
+      "authors": [
+        {
+          "name": "NARASIMHAN JEGADEESH"
+        },
+        {
+          "name": "SHERIDAN TITMAN"
+        }
+      ],
+      "year": 1993,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.1993.tb04702.x",
+      "arxiv_id": null,
+      "topics": [
+        "momentum"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:00:13.177281+00:00"
+    },
+    {
+      "id": "7a424fef-4cf9-40e7-bffe-9fb9989e9a24",
+      "title": "The Cross‐Section of Expected Stock Returns",
+      "authors": [
+        {
+          "name": "EUGENE F. FAMA"
+        },
+        {
+          "name": "KENNETH R. FRENCH"
+        }
+      ],
+      "year": 1992,
+      "journal": "The Journal of Finance",
+      "doi": "10.1111/j.1540-6261.1992.tb04398.x",
+      "arxiv_id": null,
+      "topics": [
+        "quality"
+      ],
+      "is_oos_paper": false,
+      "updated_at": "2026-06-19T19:00:13.177281+00:00"
+    }
+  ]
 }
